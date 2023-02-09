@@ -70,7 +70,7 @@
 		<a href="https://hempireonline.com" target="_blank" rel="noreferrer">
 			<img src={hempire} alt="hempire" />
 		</a>
-		<a href="#!" target="_blank">
+		<a href="" target="_blank" rel="noreferrer">
 			<img src={instantVouchers} alt="instantVouchers" />
 		</a>
 	</div>

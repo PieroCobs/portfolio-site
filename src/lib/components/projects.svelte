@@ -52,7 +52,7 @@
 			name: 'ayuda service provider portal',
 			thumb: spOnboarding,
 			roles: 'react.js, next.js, UI/UX design',
-			url: 'sp.ayudahub.com'
+			url: 'https://sp.ayudahub.com'
 		},
 		{
 			name: 'ayuda back office',
@@ -88,19 +88,19 @@
 			name: 'h-empire mobile',
 			thumb: hempireMobile,
 			roles: 'UI/UX design',
-			url: '#!'
+			url: ''
 		},
 		{
 			name: 'sinDor',
 			thumb: sindor,
 			roles: 'UI/UX design',
-			url: '#!'
+			url: ''
 		},
 		{
 			name: 'a&k surfside',
 			thumb: akSurfside,
 			roles: 'UI/UX design',
-			url: '#!'
+			url: ''
 		},
 		{
 			name: 'maxitech gh',
