@@ -5,7 +5,9 @@
 	import ayudaMobile from '$lib/images/projects/ayuda-mobile.jpg';
 	import ayudaWeb from '$lib/images/projects/ayuda-web.jpg';
 	import adeo from '$lib/images/projects/adeo.jpg';
+	import mems from '$lib/images/projects/mems.jpg';
 	import spOnboarding from '$lib/images/projects/sp-onboarding.jpg';
+	import ayudaBackOffice from '$lib/images/projects/ayuda-back-office.jpg';
 	import knoxxiWeb from '$lib/images/projects/knoxxi-web.jpg';
 	import knoxxiHealth from '$lib/images/projects/knoxxi-health.jpg';
 	import knoxxiDrivv from '$lib/images/projects/knoxxi-drivv.jpg';
@@ -44,7 +46,7 @@
 		},
 		{
 			name: 'maximal environmental management system',
-			thumb: '',
+			thumb: mems,
 			roles: 'react.js, next.js, UI/UX design',
 			url: 'https://mems.maxitechgh.com'
 		},
@@ -56,7 +58,7 @@
 		},
 		{
 			name: 'ayuda back office',
-			thumb: '',
+			thumb: ayudaBackOffice,
 			roles: 'HTML, SCSS, JavaScript, jQuery, UI/UX design',
 			url: 'https://ghana.ayudahub.com'
 		},

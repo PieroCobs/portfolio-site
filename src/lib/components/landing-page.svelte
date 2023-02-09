@@ -28,7 +28,7 @@
 			<Spacer height={2.5} />
 			<InfoBit
 				label="services"
-				info="Frontend Web Development<br/>Mobile Development<br/>UI/UX Design"
+				info="Frontend Web Development<br/>Mobile Development<br/>Desktop Development<br/>UI/UX Design"
 			/>
 			<Spacer height={2.5} />
 			<InfoBit label="contact" info="rickpiero237@gmail.com<br/>+233 247 081 117" />
