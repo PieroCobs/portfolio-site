@@ -15,7 +15,7 @@
 	.header {
 		display: flex;
 		justify-content: space-between;
-		padding: calc($column-margin-top / 2) 0 0;
+		padding: calc($column-margin-top / 2) 0;
 
 		nav {
 			display: flex;
