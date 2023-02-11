@@ -78,6 +78,12 @@
 
 <style lang="scss">
 	.landing-page {
+		overflow-x: hidden;
+
+		@media (max-width: 570px) {
+			text-align: center;
+		}
+
 		.tagline {
 			line-height: 1.5em;
 		}
@@ -106,19 +112,24 @@
 	.clients {
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		margin-top: $column-margin-top;
+		margin: $column-margin-top auto 0;
 		-ms-overflow-style: none;
 		overflow-x: auto;
 		&::-webkit-scrollbar {
 			display: none;
 		}
 
-		a {
-			&:not(:last-child) {
-				margin-right: 30px;
+		@media (min-width: 992px) {
+			justify-content: center;
+		}
 
-				@media screen and (min-width: 1024px) {
+		a {
+			flex-shrink: 0;
+
+			&:not(:last-child) {
+				margin-right: 40px;
+
+				@media screen and (min-width: 768px) {
 					margin-right: 60px;
 				}
 			}
@@ -153,7 +164,7 @@
 				display: flex;
 				justify-content: space-between;
 				flex-wrap: wrap;
-				align-items: flex-end;
+				/* align-items: flex-end; */
 			}
 		}
 

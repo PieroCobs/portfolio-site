@@ -12,6 +12,8 @@
 	import sass from '$lib/images/stack/sass.png';
 	import nodejs from '$lib/images/stack/nodejs.png';
 	import go from '$lib/images/stack/go.png';
+	import xd from '$lib/images/stack/xd.png';
+	import figma from '$lib/images/stack/figma.png';
 
 	const stacks = [
 		{ label: 'typescript', iconUrl: typescript },
@@ -25,7 +27,9 @@
 		{ label: 'css', iconUrl: css },
 		{ label: 'sass', iconUrl: sass },
 		{ label: 'node.js', iconUrl: nodejs },
-		{ label: 'go', iconUrl: go }
+		{ label: 'go', iconUrl: go },
+		{ label: 'Adobe XD', iconUrl: xd },
+		{ label: 'Figma', iconUrl: figma }
 	];
 </script>
 
