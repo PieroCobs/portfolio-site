@@ -7,8 +7,11 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Peter Sabla</title>
+	<meta
+		name="description"
+		content="Creative front-end engineer with passion for designing with code. Implements complex interfaces without a loss in aesthetics or functionality."
+	/>
 </svelte:head>
 
 <LandingPage />
