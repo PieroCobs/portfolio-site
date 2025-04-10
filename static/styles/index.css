@@ -9,7 +9,7 @@
 	--color-heading: #000;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
-	font-family: var(--font-body);
+	font-family: var(--font-body) !important;
 	color: var(--color-text);
 }
 

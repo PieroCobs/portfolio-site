@@ -20,6 +20,7 @@
 		<!-- <br />Frontend Software Engineer
 		<br />&amp; Flutter Developer -->
 		<br />Software Engineer
+		<br />Founder & CEO, Spate SE
 	</h1>
 
 	<div class="row">
@@ -89,6 +90,10 @@
 
 		.tagline {
 			line-height: 1.5em;
+
+			a {
+				font-family: var(--font-heading);
+			}
 		}
 
 		.profile {
