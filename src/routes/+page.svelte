@@ -16,6 +16,6 @@
 
 <LandingPage />
 <Stack />
-<EducationExperience />
 <Projects />
+<EducationExperience />
 <Cta />

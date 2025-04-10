@@ -10,34 +10,37 @@
 	import InfoBit from './info-bit.svelte';
 	import Spacer from './spacer.svelte';
 	import AnchorButton from './anchor-button.svelte';
+
+	const numberOfYears = new Date().getFullYear() - 2014;
 </script>
 
 <section class="landing-page">
 	<h1 class="tagline">
 		Peter Sabla
-		<br />Frontend Software Engineer
-		<br />&amp; Flutter Developer
+		<!-- <br />Frontend Software Engineer
+		<br />&amp; Flutter Developer -->
+		<br />Software Engineer
 	</h1>
 
 	<div class="row">
 		<div class="col">
 			<InfoBit
 				label="profile"
-				info="Creative front-end engineer with passion for designing with code. Implements complex interfaces without a loss in aesthetics or functionality."
+				info="Creative engineer with passion for designing with code. Implements complex interfaces without a loss in aesthetics or functionality."
 			/>
 			<Spacer height={2.5} />
 			<InfoBit
 				label="services"
-				info="Frontend Web Development<br/>Mobile Development<br/>Desktop Development<br/>UI/UX Design"
+				info="Web Development<br/>Mobile Development<br/>Desktop Development<br/>UI/UX Design"
 			/>
 			<Spacer height={2.5} />
-			<InfoBit label="contact" info="rickpiero237@gmail.com<br/>+233 247 081 117" />
+			<InfoBit label="contact" info="rickpiero237@gmail.com<br/>+233 201 815 822" />
 		</div>
 		<div class="col">
 			<img src={profile} alt="Peter Sabla" class="profile" />
 		</div>
 		<div class="col">
-			<InfoBit label="years of<br/>experience" info="8" isLarge />
+			<InfoBit label="years of<br/>experience" info={`${numberOfYears}`} isLarge />
 			<Spacer height={2.5} />
 			<div>
 				<InfoBit label="what are<br/>you working on?" info="" />
@@ -52,6 +55,9 @@
 	</div>
 
 	<div class="clients">
+		<a href="https://sindorenterprise.com" target="_blank" rel="noreferrer">
+			<img src={sindor} alt="sindor" />
+		</a>
 		<a href="https://ayudahub.com" target="_blank" rel="noreferrer">
 			<img src={ayuda} alt="ayuda" />
 		</a>
@@ -64,13 +70,10 @@
 		<!-- <a href="#!" target="_blank">
 				<img src={AkSurfSide} alt="AkSurfSide" />
 			</a> -->
-		<a href="https://sindorenterprise.com" target="_blank" rel="noreferrer">
-			<img src={sindor} alt="sindor" />
-		</a>
 		<a href="https://hempireonline.com" target="_blank" rel="noreferrer">
 			<img src={hempire} alt="hempire" />
 		</a>
-		<a href="" target="_blank" rel="noreferrer">
+		<a href="#!" target="_blank" rel="noreferrer">
 			<img src={instantVouchers} alt="instantVouchers" />
 		</a>
 	</div>

@@ -13,10 +13,15 @@
 	import knoxxiDrivv from '$lib/images/projects/knoxxi-drivv.jpg';
 	import hempireWeb from '$lib/images/projects/hempire-web.jpg';
 	import hempireMobile from '$lib/images/projects/hempire-mobile.jpg';
-	import sindor from '$lib/images/projects/sindor.jpg';
+	import sindorMobile from '$lib/images/projects/sindor-mobile.jpg';
+	import sindorWeb from '$lib/images/projects/sindor-web.jpg';
+	import fincoOps from '$lib/images/projects/finco-ops.svg';
 	import akSurfside from '$lib/images/projects/ak-surfside.jpg';
 	import instantVouchers from '$lib/images/projects/instant-vouchers.jpg';
 	import maxitech from '$lib/images/projects/maxitech.jpg';
+	import woteFoods from '$lib/images/projects/wote-foods.jpg';
+	import woteRider from '$lib/images/projects/wote-rider.jpg';
+	import woteRestaurant from '$lib/images/projects/wote-restaurant.jpg';
 
 	type Project = {
 		name: string;
@@ -26,6 +31,36 @@
 	};
 
 	const projects: Project[] = [
+		{
+			name: 'Finco-Ops',
+			thumb: fincoOps,
+			roles: 'UI/UX design',
+			url: 'https://www.figma.com/proto/OYYTqSpMDeZkP9ecyDjv1J/Finco-Ops?node-id=53-1246&t=EwN4uttdtJcloLyb-1&starting-point-node-id=53%3A1246&show-proto-sidebar=1'
+		},
+		{
+			name: 'sindor enterprise web',
+			thumb: sindorWeb,
+			roles: 'svelte, web, UI/UX design',
+			url: 'https://www.figma.com/proto/6lRNotgExI4KPFp00brAPC/SinDor-Hub?page-id=0%3A1&node-id=110-2628&viewport=-777%2C633%2C0.23&t=IUecXHcJGzTpdQMo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=110%3A2628&show-proto-sidebar=1'
+		},
+		{
+			name: 'wote foods',
+			thumb: woteFoods,
+			roles: 'flutter, mobile',
+			url: '#!'
+		},
+		{
+			name: 'wote rider',
+			thumb: woteRider,
+			roles: 'flutter, mobile',
+			url: '#!'
+		},
+		{
+			name: 'wote restaurant',
+			thumb: woteRestaurant,
+			roles: 'flutter, mobile',
+			url: '#!'
+		},
 		{
 			name: 'ayuda mobile',
 			thumb: ayudaMobile,
@@ -93,8 +128,8 @@
 			url: ''
 		},
 		{
-			name: 'sinDor',
-			thumb: sindor,
+			name: 'sindor mobile',
+			thumb: sindorMobile,
 			roles: 'UI/UX design',
 			url: ''
 		},
@@ -148,7 +183,7 @@
 		margin: 0 -30px;
 
 		.col {
-			padding: 40px 30px;
+			padding: 20px 30px;
 		}
 
 		@media (min-width: 768px) {
@@ -157,13 +192,14 @@
 
 			.col {
 				width: 50%;
+				padding: 40px 30px;
 			}
 		}
 
-		@media (min-width: 1024px) {
+		/* @media (min-width: 1024px) {
 			.col {
 				width: calc(100% / 3);
 			}
-		}
+		} */
 	}
 </style>

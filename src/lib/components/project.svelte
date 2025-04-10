@@ -9,7 +9,7 @@
 		<div class="thumb">
 			<img src={thumb} alt={name} />
 		</div>
-		<Spacer height={2} />
+		<Spacer height={1} heightSm={0.3} />
 		<span class="roles">{roles}</span>
 		<h4 class="name">{name}</h4>
 	</a>
@@ -35,7 +35,7 @@
 
 		img {
 			object-fit: fill;
-			filter: grayscale(1);
+			/* filter: grayscale(1); */
 		}
 
 		img,

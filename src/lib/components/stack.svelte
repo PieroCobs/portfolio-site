@@ -12,6 +12,7 @@
 	import sass from '$lib/images/stack/sass.png';
 	import nodejs from '$lib/images/stack/nodejs.png';
 	import go from '$lib/images/stack/go.png';
+	import rust from '$lib/images/stack/rust.svg';
 	import xd from '$lib/images/stack/xd.png';
 	import figma from '$lib/images/stack/figma.png';
 
@@ -23,11 +24,12 @@
 		{ label: 'react.js', iconUrl: reactjs },
 		{ label: 'next.js', iconUrl: nextjs },
 		{ label: 'svelte', iconUrl: svelte },
+		{ label: 'go', iconUrl: go },
+		{ label: 'rust', iconUrl: rust },
 		{ label: 'html', iconUrl: html },
 		{ label: 'css', iconUrl: css },
 		{ label: 'sass', iconUrl: sass },
 		{ label: 'node.js', iconUrl: nodejs },
-		{ label: 'go', iconUrl: go },
 		{ label: 'Adobe XD', iconUrl: xd },
 		{ label: 'Figma', iconUrl: figma }
 	];
