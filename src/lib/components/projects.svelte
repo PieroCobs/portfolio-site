@@ -47,19 +47,19 @@
 			name: 'wote foods',
 			thumb: woteFoods,
 			roles: 'flutter, mobile',
-			url: '#!'
+			url: ''
 		},
 		{
 			name: 'wote rider',
 			thumb: woteRider,
 			roles: 'flutter, mobile',
-			url: '#!'
+			url: ''
 		},
 		{
 			name: 'wote restaurant',
 			thumb: woteRestaurant,
 			roles: 'flutter, mobile',
-			url: '#!'
+			url: ''
 		},
 		{
 			name: 'ayuda mobile',
